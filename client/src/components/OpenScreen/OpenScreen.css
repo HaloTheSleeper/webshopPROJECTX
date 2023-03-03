@@ -1,0 +1,82 @@
+html{ 
+  background-color: black;
+}
+
+.widelogoclass{
+	background-color: black;
+	text-align: center;
+    height: 50vh;
+}
+
+.widelogoPIC{
+  max-height: 50vh;
+  max-width: 80vw;
+}
+
+
+
+.homeinfo{
+	text-align: center;
+	background-color: black;
+	font-family: 'Playfair Display';
+    height: 20vh;
+	margin-bottom: 4vh;
+}
+
+.homeinfo h1{
+	color: #999999;
+}
+.homeinfo h1:hover{
+	color:white;
+}
+.homeinfo a{
+	text-decoration: none;
+	list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+	font-family: 'Playfair Display';
+}
+
+.homeinfo a::after { 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.homeinfo a:hover::after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.divider{
+	background: black;
+	margin-bottom: 2vh;
+  height: 5vh;
+}
+
+.divider hr{
+	border: none;
+	height: 5px;
+	color: #2aabdf;
+	background-color: #2aabdf;
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	border-radius: 2px;
+}

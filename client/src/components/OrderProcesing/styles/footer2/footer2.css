@@ -1,0 +1,15 @@
+.copyrightText{
+    width: 100%;
+    text-align: center;
+	padding-top: 0.7em;
+	padding-bottom: 0.8em;
+	background-color: black;
+	border-top: solid #2aabdf 2px;
+	font-family: 'Playfair Display';
+	flex: 0;
+	height: 6vh;
+}
+.copyrightTextSecond{
+    width: 90%;
+	color: #999999;
+}
