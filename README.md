@@ -3,7 +3,7 @@ PROJECT X by HaloTheSleeper
 SHORT DESCRIPTION
 Project X is the first bigger project of mine, a webshop with some interesting features.
 Basically a React website which uses Commerce.js and a small self built server 
-(which runs on localhost) to give customers the ability to order custom logos from infinite 
+(which runs on localhost, uses express.js framework) to give customers the ability to order custom logos from infinite 
 amount of creators. The project isn't ready to be put into action yet, nor do I have a 
 interest for doing that, it's rather an study project not a webshop made for making profit.
 
