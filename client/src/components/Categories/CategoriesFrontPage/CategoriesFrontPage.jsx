@@ -15,7 +15,7 @@ const CategoriesFrontPage = ({ categories, fetchCategoryProducts }) => {
         <main className={classes.content}>
             <div className={classes.toolbar}/>
             <section className={classes.headerClass}>
-                <h1 className={classes.header}>Actors and Actresses</h1>
+                <h1 className={classes.header}>Creators</h1>
             
                 <Grid container justifyContent="center" spacing={4}>
                     {categories.map((category) => (
